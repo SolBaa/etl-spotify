@@ -94,7 +94,7 @@ def run_spotify_etl():
     cursor = conn.cursor()
 
     sql_query = """
-    CREATE TABLE IF NOT EXISTS my_played_tracks(
+    CREATE TABLE IF NOT EXISTS my_played_tracks_2(
         song_name VARCHAR(200),
         artist_name VARCHAR(200),
         played_at VARCHAR(200),
